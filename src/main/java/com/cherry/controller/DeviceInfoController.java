@@ -37,6 +37,7 @@ public class DeviceInfoController {
                               @RequestParam("snCode") String snCode,
                               @RequestParam("regCode") String regCode,
                               @RequestParam("deviceAddress") String deviceAddress,
+                              @RequestParam("siteName") String siteName,
                               @RequestParam("deviceLng") String deviceLng,
                               @RequestParam("deviceLat") String deviceLat) throws IOException {
 
@@ -55,6 +56,7 @@ public class DeviceInfoController {
                         deviceInfo.setSnCode(snCode);
                         deviceInfo.setDeviceOwner("亿维自动化");
                         deviceInfo.setDeviceType("HMI");
+                        deviceInfo.setSiteName(siteName);
                         deviceInfo.setDeviceAddress(deviceAddress);
                         deviceInfo.setDeviceLng(deviceLng);
                         deviceInfo.setDeviceLat(deviceLat);

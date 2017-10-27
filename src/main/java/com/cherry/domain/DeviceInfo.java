@@ -20,6 +20,10 @@ public class DeviceInfo {
 
     private Integer deviceStatus = DeviceStatusEnum.OFF.getCode();   //设备状态  0 表示在线 默认为 1（离线）
 
+    private String siteName;        //现场名称
+
+    private String siteIcon;        //现场图片
+
     private String deviceAddress;   //设备部署地址
 
     private String deviceLng;       //设备经度
@@ -56,6 +60,22 @@ public class DeviceInfo {
 
     public void setDeviceStatus(Integer deviceStatus) {
         this.deviceStatus = deviceStatus;
+    }
+
+    public String getSiteName() {
+        return siteName;
+    }
+
+    public void setSiteName(String siteName) {
+        this.siteName = siteName;
+    }
+
+    public String getSiteIcon() {
+        return siteIcon;
+    }
+
+    public void setSiteIcon(String siteIcon) {
+        this.siteIcon = siteIcon;
     }
 
     public String getDeviceAddress() {

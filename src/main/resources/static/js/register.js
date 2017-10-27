@@ -193,6 +193,7 @@ function initMap() {
             //4.3 将sn码 校验码 地址 及 经纬度 下发
             var snCode = document.getElementById("snCode").value;
             var regCode = document.getElementById("jiaoyan").value;
+            var siteName = document.getElementById("xcName").value;
             var deviceAddress = keyword;
             var deviceLng = point1.lng;
             var deviceLat = point1.lat;
@@ -209,6 +210,7 @@ function initMap() {
                         //"s123" :     $("#check").html(),
                         "snCode" :  snCode,
                         "regCode" : regCode,
+                        "siteName" : siteName,
                         "deviceAddress" : deviceAddress,
                         "deviceLng" : deviceLng,
                         "deviceLat": deviceLat
