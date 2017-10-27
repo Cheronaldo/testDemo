@@ -1,0 +1,14 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://118.31.17.203:3306/device?characterEncoding=utf-8&useSSL=false
+#    106.14.175.3  root   911911
+    username: root
+    password: ghost
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8081
