@@ -51,7 +51,7 @@ public class DeviceInfoServiceImplTest {
 
     @Test
     public void findLatestOne(){
-        DeviceVerify result = deviceInfoService.findLatestBySnCode("1508847003417706844");
+        DeviceVerify result = deviceInfoService.findLatestBySnCode("1509435289989129179");
         Assert.assertNotNull(result);
     }
 

@@ -51,4 +51,15 @@ public class DeviceVerify {
     public void setGenTime(String genTime) {
         this.genTime = genTime;
     }
+
+
+    @Override
+    public String toString() {
+        return "DeviceVerify{" +
+                "id='" + id + '\'' +
+                ", snCode='" + snCode + '\'' +
+                ", regCode='" + regCode + '\'' +
+                ", genTime='" + genTime + '\'' +
+                '}';
+    }
 }

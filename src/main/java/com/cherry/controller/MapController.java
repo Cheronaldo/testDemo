@@ -40,4 +40,12 @@ public class MapController {
         return "photo";
     }
 
+
+    @GetMapping("/check1")
+    public String test1(){
+
+        return "test";
+
+    }
+
 }

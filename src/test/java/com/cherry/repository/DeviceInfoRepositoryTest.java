@@ -28,7 +28,7 @@ public class DeviceInfoRepositoryTest {
 
         DeviceInfo deviceInfo = new DeviceInfo();
         deviceInfo.setSnCode(KeyUtil.genUniqueKey());//获取随机的SN码
-        deviceInfo.setDeviceOwner("亿维自动化");
+        deviceInfo.setDeviceOwner("中国移动");
         deviceInfo.setDeviceType("HMI");
         deviceInfo.setDeviceAddress("武汉市武昌火车站");
         deviceInfo.setDeviceLng("114.324393");
